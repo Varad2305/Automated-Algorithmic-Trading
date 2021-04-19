@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Connecting to KiteConnect API
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
-
 from kiteconnect import KiteConnect
 import pandas as pd
 

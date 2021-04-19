@@ -3,9 +3,6 @@ from selenium import webdriver
 import time
 import os
 
-
-# cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
-
 def autologin():
     token_path = "api_key.txt"
     key_secret = open(token_path,'r').read().split()

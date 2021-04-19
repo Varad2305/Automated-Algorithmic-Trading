@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - Renko implementation
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import pandas as pd
 import datetime as dt
@@ -11,7 +5,6 @@ import os
 import numpy as np
 from stocktrends import Renko
 
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

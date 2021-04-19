@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - auto square off
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import os
 import pandas as pd
 
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

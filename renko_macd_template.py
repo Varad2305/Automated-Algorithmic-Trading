@@ -1,18 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - real time renko based strategy template
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
-
-
 from kiteconnect import KiteTicker, KiteConnect
 import pandas as pd
 import datetime as dt
 #import os
 import sys
 
-#cwd = os.chdir("/home/varad/kiteconnect")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

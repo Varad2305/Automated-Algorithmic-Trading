@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - ADX implementation
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import logging
 import os
 import numpy as np
 
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

@@ -1,17 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha kiteconnect automated authentication
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
-
 from kiteconnect import KiteConnect
 from selenium import webdriver
 import time
 import os
-
-
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 def autologin():
     token_path = "api_key.txt"

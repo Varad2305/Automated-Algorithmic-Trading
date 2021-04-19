@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - Implementing real time renko + MACD strategy
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
-
-
 from kiteconnect import KiteTicker, KiteConnect
 import pandas as pd
 import datetime as dt
@@ -13,7 +5,6 @@ import os
 import sys
 import requests
 
-# cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

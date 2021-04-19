@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - Streaming Data
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 from kiteconnect import KiteTicker
 import pandas as pd
 import os
-
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 
 #generate trading session

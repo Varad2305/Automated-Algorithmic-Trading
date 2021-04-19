@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - fetching tick data from db and converting to candles
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import pandas as pd
 import os
 import sqlite3
 
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()

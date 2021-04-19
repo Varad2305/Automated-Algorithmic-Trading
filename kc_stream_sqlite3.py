@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - Storing tick level data in db
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
-
 from kiteconnect import KiteTicker, KiteConnect
 import datetime
 import sys
@@ -12,7 +5,6 @@ import pandas as pd
 import os
 import sqlite3
 
-cwd = os.chdir("D:\\Udemy\\Zerodha KiteConnect API\\1_account_authorization")
 
 #generate trading session
 access_token = open("access_token.txt",'r').read()
@@ -20,7 +12,7 @@ key_secret = open("api_key.txt",'r').read().split()
 kite = KiteConnect(api_key=key_secret[0])
 kite.set_access_token(access_token)
 
-db = sqlite3.connect('D:/Udemy/Zerodha KiteConnect API/7_streaming_data/ticks.db')
+# db = sqlite3.connect('D:/Udemy/Zerodha KiteConnect API/7_streaming_data/ticks.db')
 
 def create_tables(tokens):
     c=db.cursor()

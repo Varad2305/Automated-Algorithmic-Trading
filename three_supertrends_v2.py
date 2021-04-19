@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - Supertrend Strategy
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import os
 import datetime as dt

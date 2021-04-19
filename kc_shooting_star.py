@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Zerodha Kite Connect - shooting star candle identification
-
-@author: Mayank Rasu (http://rasuquant.com/wp/)
-"""
 from kiteconnect import KiteConnect
 import pandas as pd
 import datetime as dt
